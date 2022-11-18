@@ -1,9 +1,10 @@
-let min = -Inifinity;
+let max = -Inifinity;
+let arr = [5,8,2,5,25,56,4]
 for(let i=0;i<arr.length;i++)
 {
-if(min<arr[i])
+if(max<arr[i])
 {
-min =  arr[i]
+max =  arr[i]
 }
 }
-console.log(min)
+console.log(max)
